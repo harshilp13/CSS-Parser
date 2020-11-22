@@ -1,0 +1,31 @@
+textarea {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	width: 50%;
+	height: 100%;
+	font: 12px/1.21 'Source Code Pro',Menlo,monaco,'Courier New';
+	border: none;
+	resize: none;
+	outline: none;
+	white-space: no-wrap;
+
+	&:before {
+		content: 'CSS';
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 10;
+		color: #CCC;
+	}
+}
+#output {
+	left: 50%;
+	border-left: 3px solid #CCC;
+
+	&:before {
+		content: 'Parsed';
+	}
+}

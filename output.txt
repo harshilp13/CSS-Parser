@@ -1,0 +1,19 @@
+[
+  {
+    "selectorText": ".foo",
+    "style": {
+      "color": "red",
+      "left": "10px",
+      "cssText": "color: red; left: 10px;"
+    },
+    "cssText": ".foo { color: red; left: 10px; }"
+  },
+  {
+    "selectorText": "body",
+    "style": {
+      "background": "orange",
+      "cssText": "background: orange;"
+    },
+    "cssText": "body { background: orange; }"
+  }
+]

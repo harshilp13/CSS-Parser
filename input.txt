@@ -1,0 +1,8 @@
+.foo {
+  color: red;
+  left: 10px;
+}
+
+body {
+  background: orange;
+}
